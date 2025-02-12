@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Acerca de mí!</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .grid-item {
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* Estilos específicos para cada sección */
+        #hobby {
+            background-color: #e0f2f7;
+        }
+
+        #comida {
+            background-color: #ffe5b4;
+        }
+
+        #pelicula {
+            background-color: #dcedc8;
+        }
+
+        #color {
+            background-color: #bbdefb;
+        }
+
+        #artista {
+            background-color: #f5f0c8;
+        }
+
+        #pais {
+            background-color: #c8e6c9;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 50px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para pantallas pequeñas */
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-item" id="hobby">
+            <h2>Hobby favorito</h2>
+            <img src="https://previews.123rf.com/images/ljupco/ljupco1408/ljupco140800131/30755308-c%C3%B3ctel-de-coco-en-una-playa-tropical-en-el-verano-con-el-mar-de-fondo.jpg"
+                alt="Playa">
+            <p>Es ir a la playa sentarme en la orilla y escuchar las olas del mar como golpean las rocas, y tomarme una piña colada y disfrutar de la vista al atardecer.</p>
+        </div>
+        <div class="grid-item" id="comida">
+            <h2>Comida favorita</h2>
+            <img src="https://ae-pic-a1.aliexpress-media.com/kf/H94012de2c711456e825ff1510f3e16042.jpg_300x300Q70.jpg_.webp"
+                alt="Comida">
+            <p>Es la comida más rica para mí porque las verduras le dan un sabor único y delicioso a la comida. No tengo una preferida, ya que me gusta todo tipo de comida china.</p>
+        </div>
+        <div class="grid-item" id="pelicula">
+            <h2>Película o serie favorita</h2>
+            <img src="https://www.shutterstock.com/image-vector/cute-kawaii-smiling-popcorn-basket-260nw-2370644459.jpg"
+                alt="Película">
+            <p>Mi película favorita es la de Huevos Cartoon, toda la saga de las películas, y mi serie favorita es Vis a Vis. Es super buena y entretenida.</p>
+        </div>
+        <div class="grid-item" id="color">
+            <h2>Color favorito</h2>
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/449/460/desktop-wallpaper-heartbeat-heart-black-blue.jpg"
+                alt="Color">
+            <p>Es el negro y azul.</p>
+        </div>
+        <div class="grid-item" id="artista">
+            <h2>Artista o deportista favorito</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/6527/6527855.png" alt="Artista">
+            <p>Tengo muchos artistas favoritos, pero diría que son la banda Camila y Romeo Santos.</p>
+        </div>
+        <div class="grid-item" id="pais">
+            <h2>País que me gustaría visitar</h2>
+            <img src="https://www.shutterstock.com/image-vector/japan-japanese-flag-cartoon-vector-260nw-2257570683.jpg"
+                alt="País">
+            <p>Quisiera viajar a Japón a conocer su cultura, su gastronomía y su tecnología.</p>
+        </div>
+    </div>
+
+    <script>
+        // ... (código JavaScript sin cambios)
+    </script>
+</body>
+
+</html>
